@@ -1,0 +1,40 @@
+/* Toolbar Button Container */
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Common Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Run Button - Green */
+.run-btn {
+  background-color: #ffffff; /* Green */
+  color: #000000;
+}
+
+.run-btn:hover {
+  background-color: #cccccc;
+  transform: scale(1.05);
+}
+
+/* Reset Button - Red */
+.reset-btn {
+  background-color: #ffffff; /* Red */
+  color: #000000;
+}
+
+.reset-btn:hover {
+  background-color: #cccccc;
+  transform: scale(1.05);
+}

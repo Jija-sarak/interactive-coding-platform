@@ -1,0 +1,73 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fullscreen Layout */
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main Container */
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+/* 🔹 Shared Style for Editor & Output */
+.panel-container {
+  width: 90%;
+  max-width: 800px;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  overflow: auto;
+  scrollbar-color: #2a2a2a #1e1e1e;
+  scrollbar-width: thin;
+}
+
+/* 🔹 Ensures CodeMirror Editor Takes Full Height */
+.cm-editor {
+  height: 100% !important;
+  max-height: 100%;
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* 🔹 Cursor Color */
+.cm-cursor {
+  border-left: 2px solid #00ff00 !important;
+}
+
+/* 🔹 Line Numbers */
+.cm-gutters {
+  background-color: #252526 !important;
+  color: #bbbbbb !important;
+}
+
+/* 🔹 Selected Text */
+.cm-selectionBackground {
+  background-color: rgba(0, 150, 255, 0.3) !important;
+}
+
+/* 🔹 Styling for Output Panel */
+.output-container {
+  font-size: 16px;
+  white-space: pre-wrap;
+  color: #ddd;
+}
