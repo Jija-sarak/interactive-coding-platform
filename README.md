@@ -73,12 +73,3 @@ This is an Interactive Coding Platform built with React, CodeMirror, and Tailwin
 3. User Authentication & Code Saving
 
 4. AI Code Assistance
-
-
-## Contributing
-
-Feel free to fork, contribute, or suggest features! Open an issue or a pull request.
-
-## License
-
-This project is licensed under the MIT License.
